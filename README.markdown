@@ -4,6 +4,8 @@ The missing Python AppEngine Bundle, feel free to use and contribute.
 
 ##Installation
 
+Better mixed with the [Python Django Bundle](http://svn.textmate.org/trunk/Bundles/Python%20Django.tmbundle)
+
 	cd Library/Application\ Support/TextMate/Bundles/
 	git clone git@github.com:crsantos/textmate-AppEngine.git AppEngine.tmbundle
 	osascript -e 'tell app "TextMate" to reload bundles'
