@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>users.get_current_user()
+</string>
+	<key>name</key>
+	<string>CurrentUser</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>user</string>
+	<key>uuid</key>
+	<string>262025F5-4D95-473A-AEB0-F4CBFB2BB813</string>
+</dict>
+</plist>

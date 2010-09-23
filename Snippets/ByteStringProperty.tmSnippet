@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field} = ByteStringProperty(verbose_name=${2:None})</string>
+	<key>name</key>
+	<string>ByteStringProperty</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>bsp</string>
+	<key>uuid</key>
+	<string>221E1CFC-C5F5-4BC8-BF4E-B9AEC3724C69</string>
+</dict>
+</plist>

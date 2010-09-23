@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:results} = db.GqlQuery("SELECT * FROM ${2:MODEL} WHERE ${3:CONDITION}", u"${4:TEXT}")</string>
+	<key>name</key>
+	<string>GQL</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>gq</string>
+	<key>uuid</key>
+	<string>24E09877-C2CB-47C8-9C07-DCE1DB29792E</string>
+</dict>
+</plist>

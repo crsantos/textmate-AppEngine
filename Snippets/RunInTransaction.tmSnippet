@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>db.run_in_transaction(${1:function}, ${2:query_key}, ${3:number})
+</string>
+	<key>name</key>
+	<string>RunInTransaction</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>rit</string>
+	<key>uuid</key>
+	<string>EF02A592-AE9F-4249-BC62-9F8FFDE41703</string>
+</dict>
+</plist>

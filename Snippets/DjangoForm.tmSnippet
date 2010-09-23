@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:FormName}(djangoforms.ModelForm):
+	class Meta:
+		model = ${2:MODEL}
+		exclude=['${3:FIELD}']
+</string>
+	<key>name</key>
+	<string>DjangoForm</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>dform</string>
+	<key>uuid</key>
+	<string>A120F954-10DE-47B9-92E2-FBED1BF693AA</string>
+</dict>
+</plist>

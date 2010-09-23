@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.response.out.write(
+	template.render('${1:TEMPLATEPATH}.html',{
+		'${2:TEMPLATEVAR}': ${3:VAR},
+	})
+)</string>
+	<key>name</key>
+	<string>TemplateRender</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>render</string>
+	<key>uuid</key>
+	<string>CC6DFA4B-E810-4532-99EA-C01B1B3EF928</string>
+</dict>
+</plist>

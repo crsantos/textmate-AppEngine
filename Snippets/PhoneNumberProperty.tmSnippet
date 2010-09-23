@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field} = db.PhoneNumberProperty()
+</string>
+	<key>name</key>
+	<string>PhoneNumberProperty</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>phone</string>
+	<key>uuid</key>
+	<string>D579BD32-5F40-43FC-88FF-5F2119DD36D7</string>
+</dict>
+</plist>

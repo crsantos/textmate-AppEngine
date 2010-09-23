@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field} = BlobProperty()</string>
+	<key>name</key>
+	<string>BlobProperty</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>blp</string>
+	<key>uuid</key>
+	<string>1A04E740-BFE8-4774-B871-1F4CDF4EAE75</string>
+</dict>
+</plist>

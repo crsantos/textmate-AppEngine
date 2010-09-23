@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ModelName}(polymodel.PolyModel):
+	'''${1} Documentation'''
+	</string>
+	<key>name</key>
+	<string>PolyModel</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>poly</string>
+	<key>uuid</key>
+	<string>2A9C5917-50F5-45B2-A8B2-4F448FB029EB</string>
+</dict>
+</plist>

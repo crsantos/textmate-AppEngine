@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:obj} = ${2:ModelName	}(
+	${3:var1}=${3:var1_value},
+)</string>
+	<key>name</key>
+	<string>Create Object</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>obj</string>
+	<key>uuid</key>
+	<string>5ED39026-8124-45E1-AB29-33A87C54AE8A</string>
+</dict>
+</plist>

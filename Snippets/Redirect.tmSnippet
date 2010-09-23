@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.redirect(${1:PATH})
+</string>
+	<key>name</key>
+	<string>Redirect</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>red</string>
+	<key>uuid</key>
+	<string>59835838-7B8A-4EC2-8AE9-D2A45873F57B</string>
+</dict>
+</plist>
