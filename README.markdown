@@ -1,6 +1,6 @@
 #AppEngine Textmate bundle
 
-The missing Python AppEngine Bundle, feel free use and contribute.
+The missing Python AppEngine Bundle, feel free to use and contribute.
 
 ##Installation
 
