@@ -2,6 +2,12 @@
 
 The missing Python AppEngine Bundle, feel free use and contribute.
 
+##Installation
+
+	cd Library/Application\ Support/TextMate/Bundles/
+	git clone git@github.com:crsantos/textmate-AppEngine.git AppEngine.tmbundle
+
+
 ## Models
 * `model` / `poly` - The standard AppEngine Models for DB.
 
