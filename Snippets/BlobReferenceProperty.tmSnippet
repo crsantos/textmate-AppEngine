@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field} = db.StringProperty(${2:blank=True})
+	<string>${1:field} = db.blobstore.BlobReferenceProperty(verbose_name=${2:None})
 </string>
 	<key>name</key>
-	<string>StringProperty</string>
+	<string>BlobReferenceProperty</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>sp</string>
+	<string>blrp</string>
 	<key>uuid</key>
-	<string>69AB5742-33F4-4CEC-AE10-81E79435C4BC</string>
+	<string>6018CDF8-4ED3-4797-A424-D88EA3DFDB3F</string>
 </dict>
 </plist>

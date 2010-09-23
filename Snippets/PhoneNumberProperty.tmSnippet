@@ -10,7 +10,7 @@
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>phone</string>
+	<string>pnp</string>
 	<key>uuid</key>
 	<string>D579BD32-5F40-43FC-88FF-5F2119DD36D7</string>
 </dict>

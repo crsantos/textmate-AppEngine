@@ -6,29 +6,40 @@ The missing Python AppEngine Bundle, feel free use and contribute.
 
 	cd Library/Application\ Support/TextMate/Bundles/
 	git clone git@github.com:crsantos/textmate-AppEngine.git AppEngine.tmbundle
+	osascript -e 'tell app "TextMate" to reload bundles'
 
+##Snippets
 
-## Models
+### Models
 * `model` / `poly` - The standard AppEngine Models for DB.
 
-### Properties
+#### Properties
 * `sp` - StringProperty
+* `bp` - BooleanProperty
 * `blp` - BlobProperty
 * `dtp` - DateProperty
 * `dttp` - DateTimeProperty
 * `up` - UserProperty
-* `bp` - BooleanProperty
 * `ip` - IntegerProperty
 * `ep` - EmailProperty
 * `rp` - ReferenceProperty
 * `tp` - TextProperty
 * `pap` - PostalAddressProperty
 * `pnp` - PhoneNumberProperty
+* `bsp` - ByteStringProperty
+* `lnp` - LinkProperty
+* `lp` - ListProperty
+* `srp` - SelfReferenceProperty
+* `blrp` - BlobReferenceProperty
+* `slp` - StringListProperty
+* `timep` - TimeProperty
+* `imp` - IMProperty
+* `geop` - GeoPtProperty
+* `cp` - CategoryProperty
 
 
 
-
-##Views
+###Views
 * `sout` - self.response.out.write()
 * `obj` - obj= ModelName(name="std")
 * `rget` - request.get("...")
@@ -40,10 +51,10 @@ The missing Python AppEngine Bundle, feel free use and contribute.
 * `render` - self.response.out.write( template.render('',{})
 * `loginurl` - users.create_login_url(self.request.uri)
 * `flash` - flash.msg= 'the message'
+* `rit` -  run\_in_transaction(...)
 
 
-
-##Queries
+###Queries
 * `.p` - put()
 * `.f` - filter()
 * `.fe` - fetch()
@@ -53,6 +64,6 @@ The missing Python AppEngine Bundle, feel free use and contribute.
 * `gq` - gql(...)
 
 
-##Forms
+###Forms
 * `form` - Form()
 * `dform` - ModelForm() (django style)

@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field} = db.StringProperty(${2:blank=True})
-</string>
+	<string>${1:field} = db.StringListProperty(verbose_name=${2:None}, default=${2:None})</string>
 	<key>name</key>
-	<string>StringProperty</string>
+	<string>StringListProperty</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>sp</string>
+	<string>slp</string>
 	<key>uuid</key>
-	<string>69AB5742-33F4-4CEC-AE10-81E79435C4BC</string>
+	<string>B91D4D4C-8F5B-4C23-BAA4-98D0D5215601</string>
 </dict>
 </plist>

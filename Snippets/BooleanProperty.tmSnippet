@@ -10,7 +10,7 @@
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>boolp</string>
+	<string>bp</string>
 	<key>uuid</key>
 	<string>D1FC2BFB-E639-4668-B7FC-05F61BF720D6</string>
 </dict>

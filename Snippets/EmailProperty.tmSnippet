@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>emailp</string>
+	<string>ep</string>
 	<key>uuid</key>
 	<string>FB49C309-3DB7-4017-BBE9-9BE0DD47E04F</string>
 </dict>

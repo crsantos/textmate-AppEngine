@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field} = db.StringProperty(${2:blank=True})
-</string>
+	<string>${1:field} = db.LinkProperty()</string>
 	<key>name</key>
-	<string>StringProperty</string>
+	<string>LinkProperty</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>sp</string>
+	<string>lnp</string>
 	<key>uuid</key>
-	<string>69AB5742-33F4-4CEC-AE10-81E79435C4BC</string>
+	<string>0172F22A-5F23-41FB-84BB-693E161AD1E9</string>
 </dict>
 </plist>

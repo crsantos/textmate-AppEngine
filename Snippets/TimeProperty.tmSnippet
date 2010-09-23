@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field} = db.StringProperty(${2:blank=True})
-</string>
+	<string>${1:field} = db.TimeProperty(verbose_name=${2:None}, auto_now=${3:False}, auto_now_add=${4:False})</string>
 	<key>name</key>
-	<string>StringProperty</string>
+	<string>TimeProperty</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>sp</string>
+	<string>timep</string>
 	<key>uuid</key>
-	<string>69AB5742-33F4-4CEC-AE10-81E79435C4BC</string>
+	<string>234ABD9D-C8CC-405F-9811-B7FE61351511</string>
 </dict>
 </plist>

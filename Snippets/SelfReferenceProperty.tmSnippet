@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field} = db.StringProperty(${2:blank=True})
-</string>
+	<string>${1:field} = db.SelfReferenceProperty(verbose_name=${2:None}, collection_name=${3:None})</string>
 	<key>name</key>
-	<string>StringProperty</string>
+	<string>SelfReferenceProperty</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>sp</string>
+	<string>srp</string>
 	<key>uuid</key>
-	<string>69AB5742-33F4-4CEC-AE10-81E79435C4BC</string>
+	<string>64126B63-291D-403C-97D0-EFF87907FD2C</string>
 </dict>
 </plist>
