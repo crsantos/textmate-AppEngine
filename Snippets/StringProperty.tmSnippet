@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field} = db.StringProperty(${2:blank=True})
+	<string>${1:field} = db.StringProperty(${2:default=None})
 </string>
 	<key>name</key>
 	<string>StringProperty</string>
