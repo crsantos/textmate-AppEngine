@@ -3,25 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>class ${1:HandlerName}(webapp.RequestHandler):
-	'''${1} documentation'''
-	
-	# GET
-	def get(self):
-		pass
-	
-	# POST
-	def post(self):
-		pass
-	
+	<string>print&gt;&gt;sys.stderr,"${1}"
 </string>
 	<key>name</key>
-	<string>RequestHandler</string>
+	<string>stderr</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>reqh</string>
+	<string>err</string>
 	<key>uuid</key>
-	<string>E7F83CA7-F543-49B0-A526-CEFF633CB672</string>
+	<string>01F4E993-39FF-4B33-8CE5-80F984319F73</string>
 </dict>
 </plist>
