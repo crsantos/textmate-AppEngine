@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.response.out.write(json.dumps(dict(status=0,)))</string>
+	<key>name</key>
+	<string>json.dumps</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>jdump</string>
+	<key>uuid</key>
+	<string>AC0A9F91-4007-4CBA-AEFC-5C52F0624BDF</string>
+</dict>
+</plist>
